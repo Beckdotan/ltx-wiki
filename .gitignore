@@ -1,0 +1,22 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Editors
+*.swp
+*.swo
+*~
+.vscode/
+
+# Obsidian (local config, not shared)
+.obsidian/
+
+# Node
+node_modules/
+
+# Claude Code local settings
+.claude/settings.local.json
+
+# Graphify temp files (keep outputs)
+graphify-out/.graphify_*
+graphify-out/cache/

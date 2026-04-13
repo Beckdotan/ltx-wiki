@@ -48,7 +48,7 @@ Only [[ltx-studio]] offers a complete production pipeline (script to storyboard 
 [[ltx-studio]] uniquely offers access to multiple model families: [[ltx-2-overview|LTX-2]], [[competitor-veo|Veo 2/3.1]], [[competitor-kling|Kling 2.6/3.0 Pro]], and FLUX. No other platform provides this multi-model flexibility.
 
 ### Open Source and Local Deployment
-[[ltx-2-3]] (Apache 2.0) is the only open-source model from a major platform competitor. [[ltx-desktop]] provides local deployment on NVIDIA GPUs. No competitor offers equivalent local/offline capability with a first-party model.
+[[ltx-2.3-model]] (Apache 2.0) is the only open-source model from a major platform competitor. [[ltx-desktop]] provides local deployment on NVIDIA GPUs. No competitor offers equivalent local/offline capability with a first-party model.
 
 ### Native Audio
 - **Yes:** [[competitor-veo|Veo 3/3.1]] (strongest lip-sync), [[competitor-kling|Kling 2.6+]], [[ltx-2-overview|LTX-2]], [[competitor-sora|Sora 2]] (discontinued)
@@ -86,7 +86,7 @@ See [[mcp-video-integrations]] for detailed coverage. LTX MCP is the only open-s
 **Core differentiators vs. all competitors:**
 1. **Unified production workflow** -- script to storyboard to timeline to export (unique)
 2. **Multi-model access** -- LTX-2, Veo, Kling, FLUX in one platform (unique)
-3. **Open-source model** -- [[ltx-2-3]] with Apache 2.0 license (unique among major platforms)
+3. **Open-source model** -- [[ltx-2.3-model]] with Apache 2.0 license (unique among major platforms)
 4. **Local deployment** -- [[ltx-desktop]] for offline operation (unique with first-party model)
 5. **MCP integration** -- native AI agent workflow support (unique with open-source local model)
 6. **Native audio** -- via LTX-2
@@ -109,4 +109,4 @@ See [[mcp-video-integrations]] for detailed coverage. LTX MCP is the only open-s
 - [[ltx-studio]]
 - [[ltx-desktop]]
 - [[ltx-2-overview]]
-- [[ltx-2-3]]
+- [[ltx-2.3-model]]

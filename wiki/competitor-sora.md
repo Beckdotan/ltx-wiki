@@ -72,7 +72,7 @@ The shutdown was so abrupt that Disney, which had committed $1 billion to a part
 
 Sora's shutdown is the most dramatic event in the AI video space. Despite having the best physics simulation and strong audio capabilities, OpenAI could not make the economics work. This creates a significant market share opportunity for [[competitor-runway|Runway]], [[competitor-veo|Veo]], [[competitor-kling|Kling]], and [[ltx-studio]].
 
-Teams that were using or evaluating Sora should consider [[ltx-studio]] as a primary alternative, especially given its script-to-export workflow, open-source model ([[ltx-2-3]]), and commitment to the video generation space as a core business.
+Teams that were using or evaluating Sora should consider [[ltx-studio]] as a primary alternative, especially given its script-to-export workflow, open-source model ([[ltx-2.3-model]]), and commitment to the video generation space as a core business.
 
 ## See Also
 - [[competitor-landscape-overview]]

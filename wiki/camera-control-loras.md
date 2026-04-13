@@ -17,7 +17,7 @@ tags:
 
 # Camera Control LoRAs
 
-Multiple community members and [[lightricks]] have created camera control LoRAs for [[ltx-2-overview|LTX-2]] and [[ltx-2.3-model|LTX-2.3]], enabling precise camera movement control in generated videos.
+Multiple community members and [[lightricks-company]] have created camera control LoRAs for [[ltx-2-overview|LTX-2]] and [[ltx-2.3-model|LTX-2.3]], enabling precise camera movement control in generated videos.
 
 ## prithivMLmods Camera Control Space
 
@@ -44,7 +44,7 @@ The official **LTX-2.3-22b-IC-LoRA-Motion-Track-Control** enables guiding the mo
 - Users provide a reference video with colored spline overlays indicating desired motion paths
 - Tracks can be extracted from existing videos using SpatialTrackerV2, drawn manually, or defined programmatically
 - Reference downscale factor: 2 (reference at 0.5x output resolution)
-- Detailed [[comfyui-integration|ComfyUI]] workflow provided
+- Detailed [[comfyui-ltx-integration-overview|ComfyUI]] workflow provided
 
 See [[ic-lora]] for technical details on the underlying In-Context LoRA methodology.
 

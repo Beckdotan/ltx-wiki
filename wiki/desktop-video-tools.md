@@ -22,7 +22,7 @@ tags:
 
 | Feature | LTX Desktop |
 |---------|-------------|
-| **Model** | [[ltx-2-3]] (22B parameters) |
+| **Model** | [[ltx-2.3-model]] (22B parameters) |
 | **Modes** | Text-to-video, Image-to-video, Audio-to-video, Retake, Image gen |
 | **Local GPU** | NVIDIA (Windows/Linux) |
 | **API Mode** | Yes (for macOS and unsupported GPUs) |
@@ -41,7 +41,7 @@ The de facto standard node-based AI workflow interface. Not a video generation m
 
 **Weaknesses:** Steep learning curve (node-based UI), no built-in NLE, no audio generation, manual workflow management, fragile community node updates.
 
-**vs. LTX Desktop:** [[ltx-desktop]] is more opinionated and user-friendly with a built-in NLE, audio-to-video, and curated experience around [[ltx-2-3]]. ComfyUI offers far more flexibility and model access but requires technical expertise.
+**vs. LTX Desktop:** [[ltx-desktop]] is more opinionated and user-friendly with a built-in NLE, audio-to-video, and curated experience around [[ltx-2.3-model]]. ComfyUI offers far more flexibility and model access but requires technical expertise.
 
 ## Automatic1111 / SD WebUI
 
@@ -77,9 +77,9 @@ These require internet and are not truly local -- [[ltx-desktop]]'s key differen
 | **Fooocus** | Yes (any) | No | Limited | No | Yes | Very High |
 | **Wan2GP** | Yes (any) | No | 5+ models | No | Yes | Medium |
 
-[[ltx-desktop]] is the only open-source desktop application combining local AI video generation with a full non-linear editor, audio-to-video synthesis, and timeline import from professional NLEs. Its main trade-off is being limited to [[ltx-2-3]] (vs. ComfyUI's universal model support) and requiring NVIDIA GPUs for local inference.
+[[ltx-desktop]] is the only open-source desktop application combining local AI video generation with a full non-linear editor, audio-to-video synthesis, and timeline import from professional NLEs. Its main trade-off is being limited to [[ltx-2.3-model]] (vs. ComfyUI's universal model support) and requiring NVIDIA GPUs for local inference.
 
 ## See Also
 - [[competitor-landscape-overview]]
 - [[ltx-desktop]]
-- [[ltx-2-3]]
+- [[ltx-2.3-model]]

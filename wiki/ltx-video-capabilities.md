@@ -45,7 +45,7 @@ This page documents the capabilities of [[ltx-video-overview|LTX-Video]] across 
 
 ### Resolution Constraints
 
-- **Divisibility:** Height and width must be divisible by 32 (due to [[ltx-video-vae]] spatial compression ratio of 32)
+- **Divisibility:** Height and width must be divisible by 32 (due to [[video-vae]] spatial compression ratio of 32)
 - **Frame count:** Must follow the 8n+1 pattern (valid: 9, 17, 25, 33, ..., 257)
 - **Auto-padding:** Non-compliant inputs are padded with -1, then cropped to desired size
 
@@ -66,7 +66,7 @@ Available in all versions. Generate video entirely from a text prompt. Supports 
 
 ### Image-to-Video (I2V)
 
-Available in all versions. Animate a still image into a video sequence. Uses timestep-based conditioning (no extra parameters needed). The conditioning image is encoded as the first frame by the causal [[ltx-video-vae]]. Conditioning strength is adjustable.
+Available in all versions. Animate a still image into a video sequence. Uses timestep-based conditioning (no extra parameters needed). The conditioning image is encoded as the first frame by the causal [[video-vae]]. Conditioning strength is adjustable.
 
 ### Video-to-Video (V2V)
 
@@ -78,7 +78,7 @@ Condition on multiple images and/or videos at specified frame positions. Each co
 
 ### Controlled Generation via ICLoRA (v0.9.7+)
 
-Available through [[ltx-video-iclora]] adapters:
+Available through [[ic-lora]] adapters:
 
 - **Depth conditioning** -- Generate video following a depth map sequence
 - **Pose conditioning** -- Generate video following pose keypoints
@@ -87,7 +87,7 @@ Available through [[ltx-video-iclora]] adapters:
 
 ### Upscaling (v0.9.7+)
 
-- **[[ltx-video-spatial-upscaler]]** -- 2x resolution increase in latent space
+- **[[ltxv-spatial-upscaler]]** -- 2x resolution increase in latent space
 - **Temporal upscaler** -- Frame interpolation for smoother video (v0.9.8+)
 - Both operate on latent representations for efficiency
 

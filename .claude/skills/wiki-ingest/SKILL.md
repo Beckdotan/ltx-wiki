@@ -84,7 +84,7 @@ Summary of what was done. Pages created: [[page1]], [[page2]]. Pages updated: [[
 
 - Filenames: lowercase, hyphenated (e.g. `wiki/transformer-architecture.md`)
 - YAML frontmatter: title, type, created, updated, sources, tags
-- Types: `source | entity | concept | comparison | analysis | overview`
+- Types: `source | entity | concept | comparison | analysis | overview | reference | guide | competitor | paper | community-project | technical | product`
 - Use `[[wikilinks]]` liberally for cross-references
 - One concept per page — split if over ~300 lines
 - Always check for existing pages before creating new ones

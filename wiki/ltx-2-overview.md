@@ -17,7 +17,7 @@ tags:
 
 # LTX-2 Overview
 
-LTX-2 is the second generation of [[lightricks]]' video generation model family, representing a complete architectural overhaul from [[ltx-video-to-ltx-2-evolution|LTX Video (0.9.x)]]. The model was renamed from "LTXV" to "LTX-2" to reflect the magnitude of changes.
+LTX-2 is the second generation of [[lightricks-company]]' video generation model family, representing a complete architectural overhaul from [[ltx-video-to-ltx-2-evolution|LTX Video (0.9.x)]]. The model was renamed from "LTXV" to "LTX-2" to reflect the magnitude of changes.
 
 ## What It Is
 

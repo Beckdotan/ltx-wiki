@@ -41,7 +41,7 @@ LTX Video models are available through multiple inference providers, from fully 
 | Image-to-Video | Yes | Yes | Yes | Yes | Yes |
 | Audio-to-Video | Yes | No | No | Yes | Yes |
 | Video Extend | Yes | No | No | Yes | Yes |
-| Video Retake | Yes | No | No | Yes | Yes |
+| Video Retake | Yes | Yes | No | Yes | Yes |
 | LoRA Training | Yes | No | No | No | No |
 | LoRA Inference | Yes | No | No | No | No |
 | ControlNet | Yes | No | No | Yes | Yes |
@@ -68,7 +68,7 @@ Prices are approximate as of early 2026. Check provider websites for current rat
 | Provider | LTX-Video (original) | LTX-2 | LTX-2.3 | LTX-2 19B |
 |----------|---------------------|-------|---------|-----------|
 | [[fal-ai]] | Yes | Yes (Pro/Fast) | Yes | Yes |
-| [[replicate]] | Yes | No | No | No |
+| [[replicate]] | Yes | Yes (Retake) | No | No |
 | [[segmind]] | Yes | Yes (Fast/Pro) | No | No |
 | [[wavespeed-ai]] | Yes (0.9.7) | No | Yes | Yes |
 | [[huggingface-inference]] | All variants | All | All | All |

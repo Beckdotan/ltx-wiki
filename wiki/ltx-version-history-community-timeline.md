@@ -110,7 +110,7 @@ Note: There is no LTX-2.1 or LTX-2.2. Versioning jumped directly from LTX-2 to L
 
 ## Company Context
 
-- **[[lightricks]]**: Israeli tech company, founded 2013
+- **[[lightricks-company]]**: Israeli tech company, founded 2013
 - Known for Facetune and Videoleap consumer apps
 - CEO Zeev Farbman's personal advocacy for open-source AI
 - Ethical training: licensed data from Getty Images and Shutterstock

@@ -63,7 +63,7 @@ AnimateDiff is an older-generation video generation approach that works as a mot
 
 ## Comparison to LTX
 
-AnimateDiff represents the plugin-based motion injection paradigm, while [[ltx-video-overview|LTX-Video]] and [[ltx-2-overview|LTX-2]] are purpose-built [[dit-architecture|DiT]] models. The gap is categorical: LTX-2 offers native 4K vs 576x1024, up to 50 FPS vs 8-16 FPS, 20 seconds vs 8 seconds, native synchronized audio, and production-ready workflows. AnimateDiff's remaining niche is for creators deeply invested in the SD 1.5 ecosystem who want simple animations from existing checkpoints.
+AnimateDiff represents the plugin-based motion injection paradigm, while [[ltx-video-overview|LTX-Video]] and [[ltx-2-overview|LTX-2]] are purpose-built [[diffusion-transformer|DiT]] models. The gap is categorical: LTX-2 offers native 4K vs 576x1024, up to 50 FPS vs 8-16 FPS, 20 seconds vs 8 seconds, native synchronized audio, and production-ready workflows. AnimateDiff's remaining niche is for creators deeply invested in the SD 1.5 ecosystem who want simple animations from existing checkpoints.
 
 ## See Also
 

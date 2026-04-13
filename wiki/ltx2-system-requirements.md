@@ -83,7 +83,7 @@ See [[ltx2-training]] for full training details.
 
 | Specification | LTX-Video 0.9.8 | LTX-2.3 |
 |---------------|-----------------|---------|
-| Model Size | 2B - 13B | ~20B |
+| Model Size | 2B - 13B | 22B (20.9B excluding text encoder) |
 | Min VRAM (Full) | 16GB (13B) | 32GB |
 | Min VRAM (Quantized) | 6GB (2B FP8) | TBD |
 | CUDA Minimum | 12.2 | 11.8 |

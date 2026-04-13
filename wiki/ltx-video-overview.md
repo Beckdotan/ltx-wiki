@@ -17,15 +17,15 @@ tags:
 ---
 # LTX Video Overview
 
-LTX-Video (LTXV) is an open-source video generation model family developed by [[lightricks]]. It was the first [[dit-architecture]]-based (Diffusion Transformer) model capable of generating high-quality videos in real-time. The model produces videos at up to 1216x704 resolution and 30 FPS, faster than they can be watched.
+LTX-Video (LTXV) is an open-source video generation model family developed by [[lightricks-company]]. It was the first [[diffusion-transformer]]-based (Diffusion Transformer) model capable of generating high-quality videos in real-time. The model produces videos at up to 1216x704 resolution and 30 FPS, faster than they can be watched.
 
 ## Key Facts
 
-- **Developer:** [[lightricks]]
+- **Developer:** [[lightricks-company]]
 - **Initial release:** November 2024 (v0.9.0)
 - **Latest LTX-Video version:** v0.9.8 (mid-July 2025)
-- **Successor:** [[ltx-2]] (October 2025), [[ltx-2-3]] (March 2026)
-- **Architecture:** [[dit-architecture]] (Diffusion Transformer), built on Pixart-alpha
+- **Successor:** [[ltx-2-overview]] (October 2025), [[ltx-2.3-model]] (March 2026)
+- **Architecture:** [[diffusion-transformer]] (Diffusion Transformer), built on Pixart-alpha
 - **Parameter counts:** 2B (original) and 13B (from v0.9.7)
 - **Paper:** arXiv:2501.00103
 
@@ -41,7 +41,7 @@ LTX-Video supports a broad range of video generation workflows:
 - **IC-LoRA control** -- Depth, pose, canny edge conditioning (v0.9.7+)
 - **Spatial upscaling** -- 2x resolution increase in latent space (v0.9.7+)
 - **Temporal upscaling** -- Frame interpolation for smoother video (v0.9.8+)
-- **LoRA fine-tuning** -- Custom model adaptation (v0.9.7+)
+- **LoRA fine-tuning** -- Custom model adaptation (v0.9.5+)
 
 See [[ltx-video-capabilities]] for the full capability matrix across versions.
 
@@ -84,7 +84,7 @@ See [[ltx-video-versions]] for the full version timeline and [[ltx-video-changel
 LTX-Video can be used via multiple methods. See [[ltx-video-huggingface]] for details.
 
 - **HuggingFace Diffusers** -- `LTXPipeline`, `LTXConditionPipeline`, `LTXLatentUpsamplePipeline`
-- **[[comfyui-integration]]** -- Official `ComfyUI-LTXVideo` node package
+- **[[comfyui-ltx-integration-overview]]** -- Official `ComfyUI-LTXVideo` node package
 - **Local inference** -- Official Python codebase on GitHub
 - **Online platforms** -- LTX Studio, Fal.ai, Replicate
 

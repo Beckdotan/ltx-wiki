@@ -29,7 +29,7 @@ LTX-2.3 is a DiT-based audio-video foundation model developed by Lightricks. It 
 
 | Model | Parameters | Description |
 |-------|-----------|-------------|
-| LTX-2.3 (latest) | ~20B | Audio-video sync, portrait support |
+| LTX-2.3 (latest) | 22B (20.9B excluding text encoder) | Audio-video sync, portrait support |
 | LTX-2 | ~19B | Audio-video model, landscape orientation |
 | LTX-Video 0.9.8 | 13B / 2B | Original video-only model |
 

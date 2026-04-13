@@ -27,7 +27,7 @@ LTX Video has achieved significant open-source adoption across GitHub, HuggingFa
 |------------|-------|-------|-------|
 | Lightricks/LTX-Video | ~10,000 | ~960 | Original LTXV, released Nov 2024 (78 open issues) |
 | Lightricks/LTX-2 | ~5,800 | ~891 | Audio-video foundation model (monorepo, 27 commits) |
-| Lightricks/ComfyUI-LTXVideo | ~3,400 | ~368 | Official [[comfyui-integration]] (32 watchers) |
+| Lightricks/ComfyUI-LTXVideo | ~3,400 | ~368 | Official [[comfyui-ltx-integration-overview]] (32 watchers) |
 | Lightricks/LTX-Desktop | ~1,400 | ~268 | Desktop app, latest v1.0.4 (Apr 2026) |
 | Lightricks/LTX-Video-Trainer | ~424 | ~58 | LoRA and fine-tuning trainer (85 commits) |
 | Lightricks/LTX-Video-Q8-Kernels | 81 | 18 | FP8 CUDA kernels (latest release 0.0.4, May 2025) |

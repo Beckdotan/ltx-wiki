@@ -44,7 +44,7 @@ Stable Video Diffusion (SVD) is Stability AI's entry into video generation, buil
 
 ## Architectural Influence
 
-SVD's approach to image conditioning influenced later models. The [[related-work-and-comparisons|LTX-Video paper]] references SVD as using a U-Net based approach, a different paradigm from the [[dit-architecture|DiT]]-based architecture that [[ltx-video-overview|LTX-Video]] adopted.
+SVD's approach to image conditioning influenced later models. The [[related-work-and-comparisons|LTX-Video paper]] references SVD as using a U-Net based approach, a different paradigm from the [[diffusion-transformer|DiT]]-based architecture that [[ltx-video-overview|LTX-Video]] adopted.
 
 ## See Also
 

@@ -45,7 +45,7 @@ Community examples consistently use detailed, cinematic descriptions with specif
 
 ## Official LoRA Effect Demonstrations
 
-[[lightricks]] released two creative LoRA demonstrations with public training datasets, showing the creative potential of LTX-Video fine-tuning.
+[[lightricks-company]] released two creative LoRA demonstrations with public training datasets, showing the creative potential of LTX-Video fine-tuning.
 
 ### Squish LoRA
 Generates "squish" effects -- animations where hands squeeze deformable objects shaped like various subjects. Prompt format: `SQUISH two hands squeezing a squeezable object that is shaped like [your object]`. Public training dataset available at Lightricks/Squish-Dataset on HuggingFace.

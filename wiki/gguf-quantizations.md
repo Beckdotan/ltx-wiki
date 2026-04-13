@@ -17,7 +17,7 @@ tags:
 
 # GGUF Quantizations
 
-Community member **city96** created GGUF (GPT-Generated Unified Format) quantizations of [[ltx-video-overview|LTX Video]], making the model accessible on lower-VRAM hardware through the [[comfyui-integration|ComfyUI]]-GGUF custom node system.
+Community member **city96** created GGUF (GPT-Generated Unified Format) quantizations of [[ltx-video-overview|LTX Video]], making the model accessible on lower-VRAM hardware through the [[comfyui-ltx-integration-overview|ComfyUI]]-GGUF custom node system.
 
 ## Key Details
 

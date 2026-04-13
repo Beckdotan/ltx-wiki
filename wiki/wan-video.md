@@ -81,7 +81,7 @@ Wan Video is Alibaba's open-source video generation model family, developed by t
 
 ## Comparison to LTX
 
-In the [[open-source-video-generation-landscape]], Wan 2.2 leads in motion realism and has the lowest VRAM entry point. However, [[ltx-2-overview|LTX-2]] is dramatically faster (5-10x), generates native 4K with synchronized audio, and offers a broader product ecosystem (desktop app, studio, MCP integration). The [[related-work-and-comparisons|LTX-2 paper]] reports LTX-2 is approximately 18x faster than Wan 2.1 on an H100 and ranked higher on the Artificial Analysis benchmark.
+In the [[open-source-video-generation-landscape]], Wan 2.2 leads in motion realism and has the lowest VRAM entry point. However, [[ltx-2-overview|LTX-2]] is dramatically faster (approximately 18x), generates native 4K with synchronized audio, and offers a broader product ecosystem (desktop app, studio, MCP integration). The [[related-work-and-comparisons|LTX-2 paper]] reports LTX-2 is approximately 18x faster than Wan 2.2 on an H100 and ranked higher on the Artificial Analysis benchmark.
 
 ## See Also
 

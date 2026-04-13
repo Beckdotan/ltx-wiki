@@ -45,7 +45,7 @@ tags:
 
 ### LTX Studio
 
-[[lightricks]] uses LTX-Video as the backbone of their commercial video creation platform at https://app.ltx.studio/, offering text-to-video and image-to-video with API access via https://console.ltx.video/.
+[[lightricks-company]] uses LTX-Video as the backbone of their commercial video creation platform at https://app.ltx.studio/, offering text-to-video and image-to-video with API access via https://console.ltx.video/.
 
 ## Creative Applications
 

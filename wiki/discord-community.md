@@ -37,7 +37,7 @@ The LTX Discord server is the primary real-time community hub for [[ltx-video-ov
 - Exclusive early access spots during product launches (e.g., 200 exclusive spots during initial LTX Studio rollout)
 
 ### Developer Engagement
-- Direct communication with [[lightricks]] development team
+- Direct communication with [[lightricks-company]] development team
 - Feature request submissions and discussions
 - Bug reporting and feedback collection
 

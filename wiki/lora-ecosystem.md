@@ -20,7 +20,7 @@ tags:
 
 # LoRA Ecosystem
 
-The LTX model family has a rich ecosystem of LoRA (Low-Rank Adaptation) adapters, spanning official releases by [[lightricks]] and community-created variants. This page covers the full inventory and training tools.
+The LTX model family has a rich ecosystem of LoRA (Low-Rank Adaptation) adapters, spanning official releases by [[lightricks-company]] and community-created variants. This page covers the full inventory and training tools.
 
 ## Official LoRAs by Lightricks
 

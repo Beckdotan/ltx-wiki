@@ -94,7 +94,7 @@ Credit costs: Gen-4 ~12 credits/s, Gen-4 Turbo ~5 credits/s. Credits do NOT roll
 **[[ltx-studio]] advantages:**
 - Unified production workflow (script to storyboard to timeline to export)
 - Multi-model access (not locked to one model family)
-- Open-source model ([[ltx-2-3]]) available for local deployment via [[ltx-desktop]]
+- Open-source model ([[ltx-2.3-model]]) available for local deployment via [[ltx-desktop]]
 - Native audio generation via [[ltx-2-overview|LTX-2]]
 - [[mcp-video-integrations|MCP integration]] for AI-agent workflows
 

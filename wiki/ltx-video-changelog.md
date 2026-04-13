@@ -20,9 +20,9 @@ Detailed version-by-version changes for [[ltx-video-overview|LTX-Video]]. For a 
 ## v0.9.0 -- Initial Release (November 2024)
 
 **New:**
-- First public release of LTX-Video by [[lightricks]]
-- 2B parameter [[dit-architecture]]-based video generation model
-- Novel [[ltx-video-vae|Video-VAE]] with 1:192 compression ratio (32x32x8, 128 channels)
+- First public release of LTX-Video by [[lightricks-company]]
+- 2B parameter [[diffusion-transformer]]-based video generation model
+- Novel [[video-vae|Video-VAE]] with 1:192 compression ratio (32x32x8, 128 channels)
 - Denoising decoder (VAE performs final diffusion step in pixel space)
 - Reconstruction GAN loss for VAE training
 - Video DWT loss for high-frequency detail preservation
@@ -63,7 +63,7 @@ Detailed version-by-version changes for [[ltx-video-overview|LTX-Video]]. For a 
 - Multi-keyframe conditional support (generate from first, last, or any intermediate frame)
 - Video extension with greater flexibility (forward and backward)
 - Commercial license introduced (OpenRail-M, replacing RAIL-M)
-- [[comfyui-integration]] with day-1 support
+- [[comfyui-ltx-integration-overview]] with day-1 support
 - LoRA support added
 - Training datasets released (Squish, Cakeify)
 
@@ -117,7 +117,7 @@ This was the largest single update in LTX-Video's history.
 **Improved:**
 - Breakthrough prompt adherence and physical understanding
 - Enhanced video length up to 60 seconds
-- Simplified [[comfyui-integration]] flows (new nodes for img2vid, img2vid+extension, img2vid+keyframes)
+- Simplified [[comfyui-ltx-integration-overview]] flows (new nodes for img2vid, img2vid+extension, img2vid+keyframes)
 
 **Models added:** 12 new variants (see [[ltx-video-model-variants]])
 
@@ -153,8 +153,8 @@ This was the largest single update in LTX-Video's history.
 
 These fundamental design choices remained constant throughout the LTX-Video line:
 
-- [[dit-architecture]]-based architecture (built on Pixart-alpha)
-- [[ltx-video-vae|Video-VAE]] with 32x32x8 compression, 128 channels
+- [[diffusion-transformer]]-based architecture (built on Pixart-alpha)
+- [[video-vae|Video-VAE]] with 32x32x8 compression, 128 channels
 - T5-XXL text encoder
 - RoPE positional embeddings
 - Cross-attention text conditioning

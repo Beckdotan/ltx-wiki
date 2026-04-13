@@ -19,7 +19,7 @@ tags:
 
 # LTX Video REST API
 
-The LTX Video REST API is a production-grade HTTP API operated by [[lightricks]] for AI video generation with synchronized audio. It is powered by the [[ltx-2-huggingface|LTX-2]] and [[ltx-2-3-huggingface|LTX-2.3]] open-source models and is documented at `docs.ltx.video`.
+The LTX Video REST API is a production-grade HTTP API operated by [[lightricks-company]] for AI video generation with synchronized audio. It is powered by the [[ltx-2-huggingface|LTX-2]] and [[ltx-2-3-huggingface|LTX-2.3]] open-source models and is documented at `docs.ltx.video`.
 
 ## Key Characteristics
 

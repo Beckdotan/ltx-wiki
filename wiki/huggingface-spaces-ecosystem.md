@@ -44,7 +44,7 @@ The HuggingFace Spaces ecosystem around [[ltx-video-overview\|LTX Video]] is one
 ## Space Categories
 
 ### Video Generation (Standard)
-Standard text-to-video and image-to-video Spaces implementing the [[lightricks]] official pipelines with minor modifications.
+Standard text-to-video and image-to-video Spaces implementing the [[lightricks-company]] official pipelines with minor modifications.
 
 ### Audio-Video Generation
 Spaces leveraging [[ltx-2-overview\|LTX-2]]/2.3's joint audio-video capability, including text-to-audio-video and image-to-audio-video.

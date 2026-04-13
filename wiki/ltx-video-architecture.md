@@ -21,7 +21,7 @@ This page documents the core technical architecture of [[ltx-video-overview|LTX-
 
 ## Architecture Overview
 
-LTX-Video is built on a [[dit-architecture]] (Diffusion Transformer) architecture, derived from Pixart-alpha. It operates in a compressed latent space and uses a novel Video-VAE for encoding and decoding.
+LTX-Video is built on a [[diffusion-transformer]] (Diffusion Transformer) architecture, derived from Pixart-alpha. It operates in a compressed latent space and uses a novel Video-VAE for encoding and decoding.
 
 ## Core Components
 
@@ -36,7 +36,7 @@ The main generative backbone of LTX-Video. It operates on latent representations
 
 ### Video-VAE
 
-The [[ltx-video-vae]] is a key architectural innovation of LTX-Video.
+The [[video-vae]] is a key architectural innovation of LTX-Video.
 
 - **Compression ratio:** 1:192 (32x32x8 spatiotemporal downscaling)
 - **Spatial compression:** 32x (height and width each compressed by 32)
@@ -55,7 +55,7 @@ Key decoder parameters:
 - **Model:** T5-XXL
 - **Conditioning:** Cross-attention between text embeddings and DiT layers
 - **Language:** English only
-- **Note:** Replaced by Gemma 3 12B in [[ltx-2]]
+- **Note:** Replaced by Gemma 3 12B in [[ltx-2-overview]]
 
 ### Positional Encoding
 
@@ -89,7 +89,7 @@ A breakthrough rendering approach introduced with the 13B model:
 
 1. Draft at lower detail first for coarse motion planning
 2. Progressively add structure, lighting, and micro-motion
-3. For 1080p: render at 960x540, then upscale 2x via [[ltx-video-spatial-upscaler]]
+3. For 1080p: render at 960x540, then upscale 2x via [[ltxv-spatial-upscaler]]
 4. Result: 30x faster than comparable-sized models
 
 ## Quantization
@@ -124,7 +124,7 @@ Official FP8 quantized models provide approximately 50% memory reduction versus 
 
 ## Architecture Evolution into LTX-2
 
-When LTX-Video evolved into [[ltx-2]], the following architectural changes were made:
+When LTX-Video evolved into [[ltx-2-overview]], the following architectural changes were made:
 
 - Added 5B audio stream alongside the video stream
 - Replaced T5-XXL with Gemma 3 12B text encoder
@@ -138,7 +138,7 @@ See [[ltx-video-to-ltx-2]] for the full evolution story.
 
 - [[ltx-video-overview]] -- Model family overview
 - [[ltx-video-code-structure]] -- Repository layout and code organization
-- [[ltx-video-vae]] -- Video-VAE details
+- [[video-vae]] -- Video-VAE details
 - [[ltx-video-capabilities]] -- Resolution, FPS, and generation modes
 - [[ltx-video-model-variants]] -- All model variants including FP8
 - [[ltx-video-to-ltx-2]] -- Architecture evolution to LTX-2

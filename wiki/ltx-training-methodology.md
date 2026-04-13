@@ -16,7 +16,7 @@ tags:
 ---
 # LTX Training Methodology
 
-This page documents the training methodology used to produce the base [[ltx-video-overview|LTX-Video]], [[ltx-2]], and [[ltx-2-3]] foundation models. This is distinct from user-facing [[lora-training]] or fine-tuning, which adapts existing models to custom data.
+This page documents the training methodology used to produce the base [[ltx-video-overview|LTX-Video]], [[ltx-2-overview]], and [[ltx-2.3-model]] foundation models. This is distinct from user-facing [[lora-training]] or fine-tuning, which adapts existing models to custom data.
 
 ## Rectified Flow Framework
 
@@ -61,7 +61,7 @@ LTX-Video trains simultaneously on multiple resolution and duration combinations
 
 - Publicly available data supplemented with licensed material
 - Designed for diversity and comprehensiveness across visual content types
-- [[ltx-2]] trained on a subset of the same dataset, focused on clips with significant audio components
+- [[ltx-2-overview]] trained on a subset of the same dataset, focused on clips with significant audio components
 
 ### Quality Filtering
 
@@ -122,7 +122,7 @@ LTX-Video's approach to image-to-video conditioning extends Open-Sora:
 - Flow-matching loss for velocity field prediction (same Rectified Flow framework)
 - **Gemma 3 (12B)** text encoder weights frozen during initial training stage
 - Learnable projection matrix W jointly optimized briefly, then frozen
-- Text connector blocks trained simultaneously with [[dit-architecture|DiT]] blocks
+- Text connector blocks trained simultaneously with [[diffusion-transformer|DiT]] blocks
 - Multi-layer feature extraction across all Gemma 3 decoder layers
 - Joint audio-visual training from the start with shared flow-matching objective
 - Cross-modality AdaLN enables inter-modal conditioning during training
@@ -132,8 +132,8 @@ LTX-Video's approach to image-to-video conditioning extends Open-Sora:
 | Transition | Key Changes |
 |-----------|-------------|
 | LTX-Video to LTXV-13B | 2B to 13B parameters; multiscale rendering; maintained 1:192 VAE compression; 30x faster generation |
-| LTXV to [[ltx-2]] | Added 5B audio stream; upgraded T5-XXL to Gemma 3 12B; 28 to 48 transformer layers; bidirectional cross-attention |
-| [[ltx-2]] to [[ltx-2-3]] | Grew to 22B total parameters; rebuilt VAE (+2.5 dB PSNR); 4x larger gated-attention text connector; upgraded HiFi-GAN vocoder |
+| LTXV to [[ltx-2-overview]] | Added 5B audio stream; upgraded T5-XXL to Gemma 3 12B; 28 to 48 transformer layers; bidirectional cross-attention |
+| [[ltx-2-overview]] to [[ltx-2.3-model]] | Grew to 22B total parameters; rebuilt VAE (+2.5 dB PSNR); 4x larger gated-attention text connector; upgraded HiFi-GAN vocoder |
 
 ## Key Ablation Findings
 

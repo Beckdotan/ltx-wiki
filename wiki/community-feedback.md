@@ -75,7 +75,7 @@ Granular fine-tuning that "puts the power of a director at your fingertips" -- i
 ## Technical Discussions
 
 ### Architecture Clarifications
-- LTX-Video uses [[dit-architecture]] (Diffusion Transformer), not UNet
+- LTX-Video uses [[diffusion-transformer]] (Diffusion Transformer), not UNet
 - LTX-Video is an original architecture, not a fine-tuned Stable Diffusion model
 
 ### Hardware Benchmarks
@@ -96,7 +96,7 @@ Community discussions seeking clarity on copyright for generated content.
 
 ## Reddit Sentiment
 
-Active discussions on r/StableDiffusion and r/comfyui. Divided opinion: some praise it as a "Sora killer," others complain about hardware requirements. [[lightricks]] leadership is active on Reddit explaining their innovation strategy. The open-sourcing of LTX-2 is praised by some but puzzling to others.
+Active discussions on r/StableDiffusion and r/comfyui. Divided opinion: some praise it as a "Sora killer," others complain about hardware requirements. [[lightricks-company]] leadership is active on Reddit explaining their innovation strategy. The open-sourcing of LTX-2 is praised by some but puzzling to others.
 
 ## References
 

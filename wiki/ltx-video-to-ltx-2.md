@@ -17,7 +17,7 @@ tags:
 ---
 # LTX Video to LTX-2 Evolution
 
-This page traces the evolution of the [[lightricks]] video generation model family from [[ltx-video-overview|LTX-Video]] through [[ltx-2]] and [[ltx-2-3]].
+This page traces the evolution of the [[lightricks-company]] video generation model family from [[ltx-video-overview|LTX-Video]] through [[ltx-2-overview]] and [[ltx-2.3-model]].
 
 ## Complete Model Family Timeline
 
@@ -30,9 +30,9 @@ This page traces the evolution of the [[lightricks]] video generation model fami
 | LTX-Video 0.9.7 | May 2025 | 13B | Scale-up, FP8, ICLoRA, upscalers |
 | 60-Second Barrier | Jul 2025 | -- | Lightricks breaks 60-second GenAI video barrier |
 | LTX-Video 0.9.8 | Jul 2025 | 13B + 2B | Full ecosystem maturation |
-| [[ltx-2]] | Oct 2025 | 19B | Rename from LTXV; first joint audio-video DiT model |
+| [[ltx-2-overview]] | Oct 2025 | 19B | Rename from LTXV; first joint audio-video DiT model |
 | LTX-2 Open-Source | Jan 2026 | 19B | Full codebase, weights, and tooling released |
-| [[ltx-2-3]] | Mar 2026 | 22B | Latest version, powers LTX Desktop |
+| [[ltx-2.3-model]] | Mar 2026 | 22B | Latest version, powers LTX Desktop |
 
 ## LTX-Video Era (Nov 2024 -- Jul 2025)
 
@@ -123,16 +123,16 @@ The complete codebase, weights, and tooling were made publicly available, making
 | Generation | Models |
 |-----------|--------|
 | LTX-Video 0.9.7-0.9.8 | ICLoRA depth, pose, canny, detailer (individual adapters) |
-| [[ltx-2]] | Union-Control (combined), Detailer, Canny-Control (individual) |
-| [[ltx-2-3]] | Union-Control (Canny + Depth + Pose), Motion-Track-Control |
+| [[ltx-2-overview]] | Union-Control (combined), Detailer, Canny-Control (individual) |
+| [[ltx-2.3-model]] | Union-Control (Canny + Depth + Pose), Motion-Track-Control |
 
 ## Community Ecosystem Growth
 
 | Version | Downloads/Month | Quantizations | Adapters | Fine-tunes |
 |---------|----------------|--------------|----------|-----------|
 | LTX-Video | 567K | 16 | 24 | 25 |
-| [[ltx-2]] | 907K | 8 | 49 | 54 |
-| [[ltx-2-3]] | 1.66M | 14 | 20 | 27 |
+| [[ltx-2-overview]] | 907K | 8 | 49 | 54 |
+| [[ltx-2.3-model]] | 1.66M | 14 | 20 | 27 |
 
 ## Technical Requirements Progression
 
@@ -153,7 +153,7 @@ The complete codebase, weights, and tooling were made publicly available, making
 
 - **Code:** Apache 2.0 (LTX-2+)
 - **Model weights:** Free for companies under $10M annual revenue
-- **Above threshold:** Contact [[lightricks]] for commercial terms
+- **Above threshold:** Contact [[lightricks-company]] for commercial terms
 
 ## Core Capabilities (LTX-2/2.3)
 
@@ -169,6 +169,6 @@ Beyond what LTX-Video offered, LTX-2 and 2.3 add:
 - [[ltx-video-overview]] -- LTX-Video model family overview
 - [[ltx-video-versions]] -- LTX-Video version timeline
 - [[ltx-video-architecture]] -- LTX-Video architecture (foundation for LTX-2)
-- [[ltx-2]] -- LTX-2 model details
-- [[ltx-2-3]] -- LTX-2.3 model details
-- [[lightricks]] -- Developer organization
+- [[ltx-2-overview]] -- LTX-2 model details
+- [[ltx-2.3-model]] -- LTX-2.3 model details
+- [[lightricks-company]] -- Developer organization

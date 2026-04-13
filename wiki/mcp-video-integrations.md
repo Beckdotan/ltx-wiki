@@ -15,7 +15,7 @@ tags:
 ---
 # MCP Video Generation Integrations
 
-[[ltx-2-3]] is explicitly designed for MCP (Model Context Protocol) compatibility, allowing it to be connected to any MCP-compatible environment as a tool for AI agents. This page covers competing MCP-based video generation integrations and the broader MCP video ecosystem.
+[[ltx-2.3-model]] is explicitly designed for MCP (Model Context Protocol) compatibility, allowing it to be connected to any MCP-compatible environment as a tool for AI agents. This page covers competing MCP-based video generation integrations and the broader MCP video ecosystem.
 
 ## LTX MCP Reference
 
@@ -51,7 +51,7 @@ Comprehensive video post-production MCP server with 8 specialized tools: recordi
 ### ComfyUI-MCP
 MCP server bridging AI agents to ComfyUI workflows, including video generation with Wan and LTX-V2 models. Supports full ComfyUI node graph execution.
 
-**vs. LTX MCP:** More flexible (any model, any workflow) but significantly more complex to set up. LTX MCP is streamlined and purpose-built for [[ltx-2-3]] generation.
+**vs. LTX MCP:** More flexible (any model, any workflow) but significantly more complex to set up. LTX MCP is streamlined and purpose-built for [[ltx-2.3-model]] generation.
 
 ### Claude Code Video Toolkit (digitalsamba)
 AI-native video production toolkit designed specifically for Claude Code with programmatic video creation. Less mature, with limited documentation.
@@ -72,7 +72,7 @@ Video generation MCP tools fall into three categories:
 
 | MCP Tool | Type | Model | Local | Open Source | Quality |
 |----------|------|-------|-------|-------------|---------|
-| **LTX MCP** | AI Generation | [[ltx-2-3]] | Yes | Yes | High (4K, audio) |
+| **LTX MCP** | AI Generation | [[ltx-2.3-model]] | Yes | Yes | High (4K, audio) |
 | **Veo2 MCP** | AI Generation | [[competitor-veo|Veo 2]] | No | No | Very High |
 | **MiniMax MCP** | Multi-modal Gen | MiniMax | No | No | Medium |
 | **Pictory MCP** | Production | Template-based | No | No | N/A |
@@ -83,6 +83,6 @@ LTX MCP occupies a uniquely strong position: it is the only open-source, locally
 
 ## See Also
 - [[competitor-landscape-overview]]
-- [[ltx-2-3]]
+- [[ltx-2.3-model]]
 - [[ltx-desktop]]
 - [[desktop-video-tools]]

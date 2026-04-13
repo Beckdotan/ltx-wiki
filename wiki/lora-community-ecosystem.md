@@ -73,7 +73,7 @@ From HuggingFace Discussion #92 on LTX-Video:
 
 **awesome-ltx2** (github.com/wildminder/awesome-ltx2):
 - Community-maintained collection of all available resources
-- LTX-2 models, encoders, workflows, LoRAs for [[comfyui-integration|ComfyUI]]
+- LTX-2 models, encoders, workflows, LoRAs for [[comfyui-ltx-integration-overview|ComfyUI]]
 - Central aggregation point for the community
 
 ## Uploading LoRAs

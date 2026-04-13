@@ -88,7 +88,7 @@ Emphasizes accessibility for non-ML-engineers: "Model training shouldn't be inti
 Browser-based LoRA training for LTX models.
 
 - Upload dataset, configure parameters, download LoRA when complete
-- Integrated with [[comfyui-integration|ComfyUI]] workflows
+- Integrated with [[comfyui-ltx-integration-overview|ComfyUI]] workflows
 - No GPU management required
 
 ## RunPod

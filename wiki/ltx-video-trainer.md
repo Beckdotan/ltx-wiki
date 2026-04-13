@@ -16,7 +16,7 @@ tags:
 ---
 # LTX Video Trainer
 
-The LTX ecosystem includes two official training tools for [[lora-training]] and fine-tuning. Both are open source and developed by [[lightricks]].
+The LTX ecosystem includes two official training tools for [[lora-training]] and fine-tuning. Both are open source and developed by [[lightricks-company]].
 
 ## LTX-Video-Trainer (Community Trainer)
 

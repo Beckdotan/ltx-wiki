@@ -37,7 +37,7 @@ Jul 2025  v0.9.8  IC-LoRA, detailer, 60s videos, multi-condition
 - **Parameters:** 2B (1.9B transformer)
 - **Resolution:** 768x512 at 24 FPS
 - **VRAM:** ~6GB minimum
-- **Key claim:** First [[dit-architecture]]-based model capable of real-time video generation
+- **Key claim:** First [[diffusion-transformer]]-based model capable of real-time video generation
 - **Speed:** 5 seconds of video generated in 2 seconds on H100; ~4 seconds on RTX 4090
 - **Capabilities:** Text-to-video, image-to-video
 - **Text Encoder:** PixArt / T5-XXL
@@ -66,7 +66,7 @@ Jul 2025  v0.9.8  IC-LoRA, detailer, 60s videos, multi-condition
 - **New features:**
   - Multi-keyframe conditional support (first/last/any frame)
   - Video extension (forward and backward)
-  - [[comfyui-integration]] day-1 support
+  - [[comfyui-ltx-integration-overview]] day-1 support
 - **License:** OpenRail-M (commercial use now allowed)
 - **Improvements:** Reduced artifacts, better prompt adherence, longer video support
 - **Last version** of the pure 2B-only model line
@@ -86,7 +86,7 @@ Jul 2025  v0.9.8  IC-LoRA, detailer, 60s videos, multi-condition
 
 - **Parameters:** 13B (6.5x increase from 2B) -- the largest LTX-Video model
 - **New features:**
-  - [[ltx-video-vae|Spatial upscaler]] (2x resolution in latent space)
+  - [[video-vae|Spatial upscaler]] (2x resolution in latent space)
   - FP8 quantization for memory efficiency
   - ICLoRA conditioning adapters (depth, pose, canny, detailer)
   - Mix mode (multi-scale workflow combining dev + distilled)
@@ -126,7 +126,7 @@ Jul 2025  v0.9.8  IC-LoRA, detailer, 60s videos, multi-condition
 
 ## What Came Next
 
-LTX-Video was succeeded by [[ltx-2]] (October 2025), which introduced joint audio-video generation, and [[ltx-2-3]] (March 2026), which scaled to 22B parameters. See [[ltx-2-version-history]] for the LTX-2 release timeline.
+LTX-Video was succeeded by [[ltx-2-overview]] (October 2025), which introduced joint audio-video generation, and [[ltx-2.3-model]] (March 2026), which scaled to 22B parameters. See [[ltx-2-version-history]] for the LTX-2 release timeline.
 
 ## References
 

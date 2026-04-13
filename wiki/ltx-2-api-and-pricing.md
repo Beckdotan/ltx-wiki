@@ -40,15 +40,16 @@ API access options and pricing for [[ltx-2-overview|LTX-2]] and [[ltx-2.3-model|
 
 | Resolution | Price per second |
 |-----------|-----------------|
-| 720p | $0.04/s |
 | 1080p | $0.06/s |
+| 1440p | $0.12/s |
+| 4K | $0.24/s |
 
 #### LTX-2.3 Pro
 
 | Resolution | Price per second |
 |-----------|-----------------|
-| 720p | $0.08/s |
-| 1080p | $0.16/s |
+| 1080p | $0.08/s |
+| 1440p | $0.16/s |
 | 4K | $0.32/s |
 
 #### LTX-2.3 Ultra

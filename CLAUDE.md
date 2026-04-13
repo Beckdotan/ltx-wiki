@@ -48,7 +48,7 @@ Every wiki page uses this structure:
 ```markdown
 ---
 title: Page Title
-type: source | entity | concept | comparison | analysis | overview
+type: source | entity | concept | comparison | analysis | overview | reference | guide | competitor | paper | community-project | technical | product
 created: YYYY-MM-DD
 updated: YYYY-MM-DD
 sources:

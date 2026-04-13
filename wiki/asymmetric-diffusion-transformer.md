@@ -13,7 +13,7 @@ tags:
 
 # Asymmetric Diffusion Transformer (AsymmDiT)
 
-The Asymmetric Diffusion Transformer (AsymmDiT) is a novel architecture introduced by Genmo in their [[mochi|Mochi 1]] video generation model. It represents an alternative approach to multimodal diffusion within the broader family of [[dit-architecture|Diffusion Transformer]] architectures.
+The Asymmetric Diffusion Transformer (AsymmDiT) is a novel architecture introduced by Genmo in their [[mochi|Mochi 1]] video generation model. It represents an alternative approach to multimodal diffusion within the broader family of [[diffusion-transformer|Diffusion Transformer]] architectures.
 
 ## Core Design
 
@@ -38,5 +38,5 @@ LTX-2's asymmetric dual-stream approach shares the principle of allocating more 
 ## See Also
 
 - [[mochi]]
-- [[dit-architecture]]
+- [[diffusion-transformer]]
 - [[video-generation-architectures]]

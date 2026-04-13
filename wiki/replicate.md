@@ -140,7 +140,7 @@ The model is open source and can be self-hosted using Replicate's `cog` tool wit
 
 ## Limitations
 
-Compared to [[fal-ai]] and [[wavespeed-ai]], Replicate currently hosts only the original LTX-Video model and does not support newer variants (LTX-2, LTX-2.3, 19B). It also lacks audio-to-video, video extend, retake, LoRA, and ControlNet features.
+Compared to [[fal-ai]] and [[wavespeed-ai]], Replicate has limited LTX model coverage. In addition to the original LTX-Video model, Replicate now hosts an **LTX-2 retake endpoint** (`lightricks/ltx-2-retake` at https://replicate.com/lightricks/ltx-2-retake, $0.10/s). However, it does not yet support LTX-2.3, 19B, or features such as audio-to-video, video extend, LoRA, and ControlNet.
 
 ## Hugging Face Integration
 

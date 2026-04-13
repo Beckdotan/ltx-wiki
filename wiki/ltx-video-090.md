@@ -15,7 +15,7 @@ tags:
 ---
 # LTX-Video 0.9.0
 
-LTX-Video 0.9.0 was [[lightricks]]' first open-source video generation model, released in **November 2024**. It was the first [[diffusion-transformer]]-based video generation model capable of generating high-quality videos in real-time. The accompanying research paper, "LTX-Video: Realtime Video Latent Diffusion" (arXiv:2501.00103), provided the technical foundation for all subsequent versions.
+LTX-Video 0.9.0 was [[lightricks-company]]' first open-source video generation model, released in **November 2024**. It was the first [[diffusion-transformer]]-based video generation model capable of generating high-quality videos in real-time. The accompanying research paper, "LTX-Video: Realtime Video Latent Diffusion" (arXiv:2501.00103), provided the technical foundation for all subsequent versions.
 
 ## Release Details
 

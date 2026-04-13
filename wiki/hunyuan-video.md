@@ -23,7 +23,7 @@ HunyuanVideo is Tencent's open-source video foundation model that achieves perfo
 
 - **Developer:** Tencent
 - **Parameters:** 13B (original), 8.3B (v1.5)
-- **Architecture:** [[dit-architecture|DiT]] with SSTA attention (v1.5)
+- **Architecture:** [[diffusion-transformer|DiT]] with SSTA attention (v1.5)
 - **Max resolution:** 1080p (via two-stage upscaling in v1.5)
 - **FPS:** 16-24 fps
 - **Duration:** 2-10 seconds

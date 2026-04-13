@@ -39,7 +39,7 @@ Community member **mushroomfleet** created a comprehensive prompt engineering to
 
 ## Adoption
 
-[[lightricks]] adopted the PromptGen approach in their official LTX-Video-Playground Space on HuggingFace, including a simplified setup and image-to-video (I2V) version. This is notable as a case of community work being upstreamed into official tooling.
+[[lightricks-company]] adopted the PromptGen approach in their official LTX-Video-Playground Space on HuggingFace, including a simplified setup and image-to-video (I2V) version. This is notable as a case of community work being upstreamed into official tooling.
 
 ## Prompting Best Practices
 

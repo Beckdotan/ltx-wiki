@@ -20,7 +20,7 @@ tags:
 
 # LTX-2.3 HuggingFace Model Card
 
-LTX-2.3 is the latest DiT-based audio-video foundation model from [[lightricks]], a significant update to [[ltx-2-huggingface|LTX-2]] with improved audio quality, visual fidelity, and prompt adherence. It has 22 billion parameters and generates synchronized video and audio within a single model.
+LTX-2.3 is the latest DiT-based audio-video foundation model from [[lightricks-company]], a significant update to [[ltx-2-huggingface|LTX-2]] with improved audio quality, visual fidelity, and prompt adherence. It has 22 billion parameters and generates synchronized video and audio within a single model.
 
 ## Key Facts
 

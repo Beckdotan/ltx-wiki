@@ -21,7 +21,7 @@ This page documents the [[ltx-video-overview|LTX-Video]] presence on Hugging Fac
 
 ## Organization
 
-- **Organization:** [[lightricks]] (verified on Hugging Face)
+- **Organization:** [[lightricks-company]] (verified on Hugging Face)
 - **URL:** https://huggingface.co/Lightricks
 - **Stats:** 54 team members, 37 models, 8 spaces, 3 datasets, 3 collections
 
@@ -149,7 +149,7 @@ pipe = LTXConditionPipeline.from_pretrained(
 
 ### Key Diffusers Parameters
 
-- `decode_timestep` -- Controls denoising decoder behavior in [[ltx-video-vae]] (e.g., 0.03)
+- `decode_timestep` -- Controls denoising decoder behavior in [[video-vae]] (e.g., 0.03)
 - `decode_noise_scale` -- Controls noise injection (e.g., 0.025)
 - Supports `group_offloading` for ~10 GB VRAM usage
 - Supports `fp8 layerwise weight-casting` for memory efficiency
@@ -157,7 +157,7 @@ pipe = LTXConditionPipeline.from_pretrained(
 ## GitHub Repository
 
 - **URL:** https://github.com/Lightricks/LTX-Video
-- **[[comfyui-integration]]:** https://github.com/Lightricks/ComfyUI-LTXVideo/
+- **[[comfyui-ltx-integration-overview]]:** https://github.com/Lightricks/ComfyUI-LTXVideo/
 
 ### Local Installation
 
@@ -221,7 +221,7 @@ python inference.py --prompt "..." --pipeline_config configs/ltxv-13b-0.9.8-dist
 - **Name:** LTX-Video Open-Weights License (v0.9.6+)
 - **Earlier versions:** RAIL-M (v0.9.0), OpenRail-M (v0.9.5)
 - Allows both research and commercial use
-- Requires attribution to [[lightricks]]
+- Requires attribution to [[lightricks-company]]
 - 13B model free for enterprises under $10M annual revenue
 - Full license text: https://huggingface.co/Lightricks/LTX-Video/blob/main/LTX-Video-Open-Weights-License-0.X.txt
 
@@ -244,5 +244,5 @@ python inference.py --prompt "..." --pipeline_config configs/ltxv-13b-0.9.8-dist
 - [[ltx-video-overview]] -- Model family overview
 - [[ltx-video-model-variants]] -- Complete model inventory
 - [[ltx-video-architecture]] -- Technical architecture details
-- [[comfyui-integration]] -- ComfyUI node integration
+- [[comfyui-ltx-integration-overview]] -- ComfyUI node integration
 - [[ltx-video-to-ltx-2]] -- Evolution to LTX-2/2.3

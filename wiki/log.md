@@ -49,3 +49,16 @@ Research conducted via 11 parallel agents covering: LTX Video models, Lightricks
 ## [2026-04-13] create | index.md consolidated
 
 Built comprehensive index.md with 206 pages organized into 16 categories: Overviews, Company & Products, LTX-Video Versions, LTX-2, Architecture, Papers, API, Providers, Python, ComfyUI, Training, Community, Adoption, Social Media, Competitors (model + product), Guides.
+
+## [2026-04-13] lint | Wiki health check
+
+Full lint with 5 parallel agents. Found: 83 broken wikilinks (10 unique targets), 7 contradictions, 6 stale claims, 127 non-standard types, 179 missing References sections, 7 pages missing from index, 26 missing cross-references, 28 data gaps.
+
+Fixed critical issues:
+- 83 broken wikilinks resolved (8 naming mismatches: [[lightricks]]→[[lightricks-company]], [[comfyui-integration]]→[[comfyui-ltx-integration-overview]], [[dit-architecture]]→[[diffusion-transformer]], etc.)
+- 7 missing GitHub pages added to index.md (new "GitHub & Code" section)
+- API pricing contradiction in ltx-2-api-and-pricing.md (resolution tiers were shifted)
+- Replicate LTX-2 availability corrected in replicate.md and inference-providers-overview.md
+- Speed claim fixed in wan-video.md ("5-10x" → "18x faster than Wan 2.2")
+- LTX-2.3 parameter count clarified ("~20B" → "22B (20.9B excluding text encoder)")
+- LoRA support version corrected in ltx-video-overview.md ("v0.9.7+" → "v0.9.5+")

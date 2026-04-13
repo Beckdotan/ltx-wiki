@@ -15,7 +15,7 @@ tags:
 
 # LTX Video API Prompting Guide
 
-Official guidance from [[lightricks]] on writing effective prompts for the [[ltx-video-api]]. Good prompts are critical for high-quality video output.
+Official guidance from [[lightricks-company]] on writing effective prompts for the [[ltx-video-api]]. Good prompts are critical for high-quality video output.
 
 ## Core Prompt Structure
 

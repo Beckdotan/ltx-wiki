@@ -188,6 +188,16 @@ Content catalog for the LTX wiki. 206 pages across 236 raw sources ingested on 2
 - [[lora-ecosystem]] — Full LoRA inventory (official + community)
 - [[lora-training-and-finetuning]] — Use case perspective on training
 
+## GitHub & Code
+
+- [[github-official-repositories]] — All 7 official Lightricks repos with stats and features
+- [[github-community-forks]] — Notable forks, derivatives, awesome-ltx2 resource list
+- [[github-community-tools]] — Community wrappers, desktop apps, MLX ports, serverless deployments
+- [[ltx-video-code-structure]] — LTX-Video repo layout, key components, dependency stack
+- [[ltx-2-code-structure]] — LTX-2 monorepo (ltx-core, ltx-pipelines, ltx-trainer)
+- [[github-issues-known-limitations]] — Issue tracker analysis, categorized bugs, 8 known limitations
+- [[ltx-awesome-resources]] — Curated directory of repos, models, LoRAs, workflows, tutorials
+
 ## Community Projects
 
 - [[gguf-quantizations]] — city96's GGUF variants (985MB–7.69GB, 3-4GB VRAM)

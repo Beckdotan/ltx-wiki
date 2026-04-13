@@ -1,16 +1,63 @@
 # LTX Wiki
 
-A comprehensive knowledge base about [LTX Video](https://github.com/Lightricks/LTX-Video) by Lightricks — covering models, architecture, API, competitors, community projects, and more.
+A living knowledge base about [LTX](https://ltx.io) by [Lightricks](https://www.lightricks.com) — the models (LTX-Video, LTX-2, LTX-2.3), the products (LTX Studio, LTX Desktop, LTX API), the architecture, the ecosystem, and the competitive landscape. Clone it, open it in [Claude Code](https://docs.anthropic.com/en/docs/claude-code), and talk to it.
 
-Built using the [Karpathy LLM Wiki pattern](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f): an LLM maintains a structured, interlinked wiki from raw sources, handling all the summarization, cross-referencing, and bookkeeping that makes a knowledge base actually useful over time.
+## What you can do
+
+```bash
+# Ask anything — get cited answers from 213 wiki pages
+/wiki-query How does LTX-2's audio-video sync work?
+/wiki-query What changed architecturally from LTX-Video to LTX-2?
+/wiki-query Compare LTX-2.3 vs Wan 2.2 — speed, quality, audio
+/wiki-query What VRAM do I need to run LTX-2.3 locally?
+/wiki-query How does the 1:192 VAE compression ratio work and why is it significant?
+/wiki-query What IC-LoRA control types are available and how do they differ?
+/wiki-query What happened to Sora and what does it mean for LTX?
+/wiki-query Which cloud providers host LTX models and how do they compare on pricing?
+/wiki-query What papers cite LTX-Video and what do they use it for?
+/wiki-query How does the community rank open-source video models in 2026?
+
+# Research a new topic — Claude searches the web, saves sources to raw/
+/wiki-research LTX Video 3.0 announcements
+
+# Ingest new sources — turns raw files into cross-linked wiki pages
+/wiki-ingest
+
+# Lint the wiki — finds contradictions, orphans, broken links, gaps
+/wiki-lint
+
+# Build a knowledge graph from all sources
+/graphify ./raw
+```
+
+That's the idea: you ask questions, add sources, and the wiki grows. The LLM handles all the summarization, cross-referencing, and bookkeeping.
+
+### Setup
+
+```bash
+git clone https://github.com/Beckdotan/ltx-wiki.git
+cd ltx-wiki
+
+# Optional: install graphify for knowledge graph
+pip install graphifyy
+
+# Open with Claude Code — skills are auto-detected
+claude
+```
+
+## Knowledge graph
+
+![Knowledge Graph](graphify-out/graph-preview.png)
+
+284 nodes, 418 edges, 16 communities. Open `graphify-out/graph.html` in any browser — no server needed. Click nodes, search concepts, filter by community.
 
 ## What's inside
 
 | | Count | Description |
 |---|---|---|
-| **Raw sources** | 239 files | Research findings from web, GitHub, HuggingFace, Reddit, arxiv, blogs |
+| **Raw sources** | 239 files | Research from web, GitHub, HuggingFace, Reddit, arXiv, blogs |
 | **Wiki pages** | 213 pages | Structured, cross-linked markdown with `[[wikilinks]]` |
-| **Knowledge graph** | 772 nodes, 1038 edges | Interactive HTML visualization via [graphify](https://github.com/safishamsi/graphify) |
+| **Knowledge graph** | 284 nodes, 418 edges | Interactive HTML visualization via [graphify](https://github.com/safishamsi/graphify) |
 
 ### Topics covered
 
@@ -26,90 +73,33 @@ Built using the [Karpathy LLM Wiki pattern](https://gist.github.com/karpathy/442
 - Product competitors (Runway, Pika, Kling, Sora, Luma, Veo)
 - Lightricks company, LTX Studio, LTX Desktop, ecosystem
 
-## Quick start
-
-### Browse in Obsidian (recommended)
-
-1. Clone this repo
-2. Open the `wiki/` folder as an [Obsidian](https://obsidian.md/) vault
-3. Use graph view to explore connections between pages
-4. Start from `wiki/index.md` for the full catalog
-
-### Browse the knowledge graph
-
-Open `graphify-out/graph.html` in any browser — no server needed. Click nodes, search concepts, filter by community.
-
-### Use with Claude Code
-
-The wiki comes with 4 slash commands that work automatically when you open this repo in [Claude Code](https://docs.anthropic.com/en/docs/claude-code):
-
-```bash
-# Ask questions about LTX — answers cite wiki pages
-/wiki-query What are LTX-2.3's advantages over competitors?
-
-# Research new topics and save sources
-/wiki-research LTX Video 3.0 announcements
-
-# Process new sources into wiki pages
-/wiki-ingest
-
-# Health-check the wiki for consistency
-/wiki-lint
-```
-
-#### Setup
-
-```bash
-git clone https://github.com/Beckdotan/ltx-wiki.git
-cd ltx-wiki
-
-# Install graphify for knowledge graph features (optional)
-pip install graphifyy
-# or
-pipx install graphifyy
-
-# Open with Claude Code
-claude
-```
-
-The wiki skills in `.claude/skills/` are detected automatically — no extra configuration needed.
-
-#### Rebuild the knowledge graph
-
-```bash
-# Inside Claude Code:
-/graphify ./raw
-```
-
-This processes all 239 raw sources into an interactive graph with community detection, god nodes, and surprising cross-document connections.
-
 ## How it works
 
-This wiki follows the [Karpathy LLM Wiki pattern](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f):
+Built on the [Karpathy LLM Wiki pattern](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f):
 
 ```
-Human adds sources → LLM ingests → Wiki pages grow → Human queries → Answers compound
+Human adds sources -> LLM ingests -> Wiki pages grow -> Human queries -> Answers compound
 ```
 
 Three layers:
 
 1. **`raw/`** — Immutable source documents. The LLM reads but never modifies these.
-2. **`wiki/`** — LLM-generated pages with `[[wikilinks]]`, YAML frontmatter, and cross-references. The LLM owns this layer entirely.
+2. **`wiki/`** — LLM-generated pages with `[[wikilinks]]`, YAML frontmatter, and cross-references.
 3. **`CLAUDE.md`** — Schema defining conventions, workflows, and structure rules.
 
-The wiki is a **persistent, compounding artifact**. Cross-references are already there. Contradictions have been flagged. The synthesis reflects everything that's been read. Every new source and every good question makes it richer.
+The wiki is a **persistent, compounding artifact**. Every new source and every good question makes it richer.
+
+### Also works with Obsidian
+
+Open the `wiki/` folder as an [Obsidian](https://obsidian.md/) vault for graph view and `[[wikilink]]` navigation. Start from `wiki/index.md`.
 
 ## Contributing
 
-### Add a new source
-
 1. Save a markdown file to `raw/` (articles, papers, notes — anything text)
-2. Run `/wiki-ingest` in Claude Code to process it into wiki pages
-3. The LLM will create/update wiki pages, update the index, and log the operation
+2. Run `/wiki-ingest` in Claude Code
+3. The LLM creates/updates wiki pages, updates the index, and logs the operation
 
-### Improve existing pages
-
-Edit wiki pages directly, or ask Claude Code to update them. Run `/wiki-lint` periodically to catch issues.
+Run `/wiki-lint` periodically to catch issues.
 
 ## License
 

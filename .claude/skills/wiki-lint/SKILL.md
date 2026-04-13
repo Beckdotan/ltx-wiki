@@ -75,7 +75,7 @@ Compare `wiki/index.md` against actual wiki files:
 
 Check pages against CLAUDE.md conventions:
 - Missing YAML frontmatter fields (title, type, created, updated, sources, tags)
-- Non-standard `type` values (should be: source, entity, concept, comparison, analysis, overview)
+- Non-standard `type` values (should be: source, entity, concept, comparison, analysis, overview, reference, guide, competitor, paper, community-project, technical, product)
 - Missing `## References` section
 - Filenames not lowercase-hyphenated
 - Pages over 300 lines that should be split

@@ -16,7 +16,7 @@ tags:
 ---
 # LoRA Training for LTX Video
 
-LoRA (Low-Rank Adaptation) is the primary method for customizing [[ltx-video-overview|LTX-Video]], [[ltx-2]], and [[ltx-2-3]] models. It produces lightweight adapter weights (typically a few hundred MBs) that can be applied at inference time to achieve custom styles, characters, motions, or effects.
+LoRA (Low-Rank Adaptation) is the primary method for customizing [[ltx-video-overview|LTX-Video]], [[ltx-2-overview]], and [[ltx-2.3-model]] models. It produces lightweight adapter weights (typically a few hundred MBs) that can be applied at inference time to achieve custom styles, characters, motions, or effects.
 
 ## Fine-Tuning Approaches
 
@@ -198,7 +198,7 @@ video = pipeline(
 
 ## Version Compatibility
 
-**LTX-2 to LTX-2.3:** LoRAs trained on [[ltx-2]] do **not** transfer to [[ltx-2-3]] due to VAE redesign and text connector architecture changes. You must retrain LoRAs when upgrading.
+**LTX-2 to LTX-2.3:** LoRAs trained on [[ltx-2-overview]] do **not** transfer to [[ltx-2.3-model]] due to VAE redesign and text connector architecture changes. You must retrain LoRAs when upgrading.
 
 **Cross-version exception:** Community reports that LTX-2.0 LoRAs actually work *significantly better* on LTX-2.3 than on 2.0 itself. When using 2.0 LoRAs on 2.3, reduce inference strength values.
 

@@ -19,7 +19,7 @@ tags:
 
 # LTX-2 HuggingFace Model Card
 
-LTX-2 is a DiT-based audio-video foundation model developed by [[lightricks]] that generates synchronized video and audio within a single model. It has 19 billion parameters and is available under the LTX-2 Community License Agreement.
+LTX-2 is a DiT-based audio-video foundation model developed by [[lightricks-company]] that generates synchronized video and audio within a single model. It has 19 billion parameters and is available under the LTX-2 Community License Agreement.
 
 For the original video-only model, see [[ltx-video-huggingface]]. For the latest version, see [[ltx-2-3-huggingface]].
 

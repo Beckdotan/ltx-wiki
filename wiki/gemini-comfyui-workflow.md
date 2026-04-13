@@ -16,7 +16,7 @@ tags:
 
 # Gemini ComfyUI Workflow
 
-Community member **rubanraja** created a free [[comfyui-integration|ComfyUI]] workflow that integrates Google Gemini API with [[ltx-video-overview|LTX Video]], designed to simplify video generation by using Gemini for enhanced prompt processing.
+Community member **rubanraja** created a free [[comfyui-ltx-integration-overview|ComfyUI]] workflow that integrates Google Gemini API with [[ltx-video-overview|LTX Video]], designed to simplify video generation by using Gemini for enhanced prompt processing.
 
 ## Key Details
 
